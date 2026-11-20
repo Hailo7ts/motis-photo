@@ -75,6 +75,9 @@ const Contact = () =>{
                         className="input w-full" 
                         placeholder="Message" 
                         />
+
+                      <input type="hidden" name="form-name" value="contact" />
+
                       <button type="submit" className="btn btn-neutral mt-15 sm:mt-4">Submit</button>
                     </fieldset>
                   </div>
