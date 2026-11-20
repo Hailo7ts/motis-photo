@@ -45,7 +45,7 @@ const Contact = () =>{
           <div className="bg-[#181818] w-4/5 my-10 p-5 mx-auto rounded-lg flex justify-center ">                  
 
 
-                <div className="w-full" netlify>
+                <form className="w-full" data-netlify="true">
                   <h1 className="text-5xl font-bold text-center">Contact Me</h1> 
                   <div className="card-body">
                     <fieldset className="fieldset ">
@@ -78,7 +78,7 @@ const Contact = () =>{
                       <button type="submit" className="btn btn-neutral mt-15 sm:mt-4">Submit</button>
                     </fieldset>
                   </div>
-                </div>
+                </form>
 
           </div>
         </>
